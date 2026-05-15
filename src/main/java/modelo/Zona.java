@@ -13,14 +13,14 @@ public class Zona {
     private String nombre;
     private int capacidad;
     private int precio;
-    private Entrada[] listaEntrada;
+    private Entrada[] lista_entradas;
 
 
     public Zona(String nombre, int capacidad, int precio, Entrada[] listaEntradas) {
         this.nombre = nombre;
         this.capacidad = capacidad;
         this.precio = precio;
-        this.listaEntrada = listaEntradas;
+        this.lista_entradas = listaEntradas;
     }
     
     private boolean generarEntradas(){
@@ -28,11 +28,11 @@ public class Zona {
     }
     
     public Entrada[] mostrarEntrada(){
-        return listaEntrada;
+        return lista_entradas;
     }
     
     public Entrada[] venderEntrada(int numero){
-        return listaEntrada;
+        return lista_entradas;
     }
     
 }
